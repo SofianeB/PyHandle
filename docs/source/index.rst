@@ -10,6 +10,9 @@ Welcome to PYHANDLE's documentation!
 PyHandle is a Python client library for interaction with a `Handle System <http://www.handle.net/>`_ server, providing basic create, read, update and delete capabilities for Handles.
 The library offers a client for the HTTP REST interface, a client that interacts directly with a Handle server SQL back-end and a client to manage batch files.
 
+PyHandle is based on a prior development of the `EUDAT project <https://eudat.eu/>`_ under the name B2Handle.
+As `B2Handle <https://github.com/EUDAT-B2SAFE/B2HANDLE/>`_ was developed with a specific scope - Handle operations in the EUDAT project - in mind, it has been improved and made more generic to cater to a broader audience.
+
 .. important::
    In order to perform operations on Handles it is mandatory to select which client you want to work with.
    There are currently three interfaces to interact with Handle System server: The REST interface, the native (SQL)
