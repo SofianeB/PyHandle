@@ -1,5 +1,7 @@
 # PYHANDLE
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93304a2149274d73a77da6f5ab70c524)](https://www.codacy.com/app/statiksof/PYHANDLE?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EUDAT-B2SAFE/PYHANDLE&amp;utm_campaign=Badge_Grade)
+
 PyHandle is a Python client library for interaction with a [Handle System](https://handle.net) server, providing basic create, read, update and delete capabilities for Handles. The library offers a client for the HTTP REST interface, a client that interacts directly with a Handle server SQL back-end and a client that creates customized Batch files.
 The latter contain Batch operations, that can be performed using the GenericBatch command utility provided by the Handle System.
 
